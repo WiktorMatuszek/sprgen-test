@@ -7,3 +7,4 @@ do
 	echo $i
 	echo $(diff -b -Z tmp.txt out/"$nazwa""$i.out")
 done
+rm tmp.txt
